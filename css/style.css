@@ -1,0 +1,165 @@
+
+.title_bar{
+    color:#07ccb8 !important ;
+    font-family: 'Kanit', sans-serif;
+}
+.nav-link:hover{
+     color: #07ccb8  !important;
+}
+.imag_home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.home_bg{
+display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+ text-align: center;
+height: 500px;
+opacity: .78;
+}
+.rec{
+    position: absolute;
+    z-index: -1;
+    top:110px;
+    left: 34%;
+    height: 170px;
+    width: 400px !important;
+   background-color: black;
+    opacity: .7;
+    animation:Slide_Up 1.5s ease ;
+}
+.moto{
+  color: #07ccb8;
+  margin:11% auto 2%;
+}.ph{
+    color: white;
+}
+.rec:hover{
+    opacity: 1;
+}
+@media screen and (max-width : 630px) {
+    .rec{
+     
+      left:11%;
+        
+    }
+    .specile{
+        height: 85rem !important;
+    }
+    
+}
+@media screen and (max-width : 1030px) {
+    
+    .specile{
+        height: 85rem !important;
+    }
+    .about{
+        height: 68rem !important;
+    }
+    
+}
+
+@keyframes Slide_Up {
+    0%{
+        transform: translateY(300px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+.headere{
+    position: relative;
+    top:30px;
+    left: 80px;
+    margin: 0%;
+    color: white;
+}
+.specile{
+    height: 750px;
+    background-color: #3492c5;
+    
+}
+.rec_cer{
+    color: rgb(0, 0, 0) ;
+    height: 190px;
+    width: 700px !important;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541__340.jpg);
+    opacity: .8;
+    text-align: center;
+}
+.trust{
+    height: 38rem ;
+    width: 38rem ;
+}
+.img{
+    max-width: 99%;
+    max-height: 99%;
+}
+.whytrust{
+    height: 30rem ;
+
+}
+.fr_titl{
+  color:#07ccb8 ;  
+}
+
+.about{
+    height: 590px;
+    background-color: #3492c5;
+}
+.na_about{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.tel{
+    text-decoration: none;
+    color: white;
+   position: relative;
+   top: 30px;
+   left: 390px;
+  
+}
+.line{
+    width: 80%;
+    line-height: 2px;
+}
+.serve{
+    background-color: black;
+    color: white;
+}
+
+.text_about{
+text-align: center;
+}
+.phase{
+    color: #0b415e;
+}
+.na_about:hover{
+    color: #07ccb8;
+}
+.iconfav{
+    font-size: 120px;
+    padding: 5%;
+  margin-bottom: .78rem;
+}
+.iconfavv{
+    margin: 1rem;
+}
+.iconfavv:hover{
+    color: #07ccb8;
+    height: 50%;
+}
+
+#footers{
+    text-align: center;
+}
